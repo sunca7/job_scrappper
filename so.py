@@ -35,4 +35,4 @@ def request_page(max_pn):
 def get_jobs():
   max_pn = extract_page_nb()
   jobs = request_page(max_pn)
-  return []
+  return jobs
